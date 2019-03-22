@@ -1,0 +1,81 @@
+/*      Global Styles 
+---------------------------*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    color: rgb(34,34,34);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(34,34,34);
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*      Navigation/Footer
+---------------------------*/
+nav, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0 15px;
+}
+nav a, footer a {
+    margin: 5px;
+    padding: 5px;
+}
+nav img {
+    height: 15px;
+    width: 15px;
+}
+nav button {
+    background: rgb(66,133,244);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 65px;
+    border-radius: 3px;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(244,244,244);
+    padding: 3px 15px;
+    border: 1px solid rgb(224,224,224   );
+}
+footer a {
+    color: rgb(100,100,100);
+}
+
+
+/*      Main Search
+---------------------------*/
+
+/*         Footer 
+---------------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0 15px;
+}
