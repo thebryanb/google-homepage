@@ -53,14 +53,16 @@ nav button {
     border-radius: 3px;
     border: none;
 }
-
+nav button:active {
+    background: rgb(19, 92, 209);
+}
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background: rgb(244,244,244);
     padding: 3px 15px;
-    border: 1px solid rgb(224,224,224   );
+    border-top: 1px solid rgb(224,224,224);
 }
 footer a {
     color: rgb(100,100,100);
@@ -69,13 +71,32 @@ footer a {
 
 /*      Main Search
 ---------------------------*/
-
-/*         Footer 
----------------------------*/
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5px;
-    padding: 0 15px;
+main {
+ margin-top: 50px;
 }
+main img {
+    display: block;
+    margin: 0 auto;
+}
+form {
+    width: 800px;
+    margin: 10 auto;
+    text-align: center;
+}
+input {
+    font-size: 1.2rem;
+    width: 70%;
+    height: 3rem;
+    border-radius: 25px;
+    border: 1px solid rgb(224,224,224);
+}
+form button {
+    background: rgba(234,234,234,0.7);
+    color: rgb(100,100,100);
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    margin: 30px 7px;
+    border: none;
+    border-radius: 5px;
+}
+
